@@ -1,0 +1,1 @@
+socat tcp-l:2023,reuseaddr,fork exec:./scripty,pty,setsid,setpgid,ctty
